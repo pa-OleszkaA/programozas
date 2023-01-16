@@ -1,46 +1,42 @@
-a = "Hello, World!"
+"""
+a = '''Lorem ipsum dolor sit amet,
 
+consectetur adipiscing elit,
+
+sed do eiusmod tempor incididunt
+
+ut labore et dolore magna aliqua.'''
+
+print(a)
+"""
+"""
+a = "Hello, world!"
+
+print(a[0])
 print(a[1])
-
+print(a[2])
+print(a[3])
 print(a[4])
 
+"""
+"""
+szam = 0
 for x in "banana":
+    print(x)
 
-  print(x)
-  for x in "banana":
- szam = 0
-    print(szam,x,sep="---",end="itt van a sor vége")
+for x in "banana":
+    print(szam,x,sep="---",end='\n')
     szam = szam +1
-
-a = "Hello, Woooorld!"
-
-print(len(a))
-
-txt = "The best things in life are free!"
-
-print("free" not in txt) 
+"""
+a = "Hello, world!"
+    print(len(a))
 
 txt = "The best things in life are free!"
+    print("free" in txt) 
 
-if "expensive" not in txt:
-
-  print("No, 'expensive' is NOT present.")
-
-
-b = "Hello, World!"
-
-print(b[1:5])  
-
-     a = "Hello, World!"
-
+txt = "The best things in life are free!"
+    if "expensive" not in txt:
+        print("No, 'expensive' is NOT present.")
+   
+b = "hello, world!"
 print(a.upper())
-
-
-a = "Hello, World!"
-
-print(a.lower())
-
-
-a = " Hello, World! "
-print(a)
-print(a.strip()) # returns "Hello, World!"

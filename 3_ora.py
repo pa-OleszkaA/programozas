@@ -1,0 +1,10 @@
+print("10.D")
+print()
+import os
+print('Hello, ' + os.getlogin() + '! How are you?' , sep='\n')
+print(35)
+print(3.67)
+print(35.0)
+print(15+12-2*3)
+print(5==5)
+print(5==6)
